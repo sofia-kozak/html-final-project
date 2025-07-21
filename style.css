@@ -126,6 +126,7 @@ main{
     align-items: flex-start;
     flex-direction: row;
     gap: 20px;
+    padding-bottom: 284px;
 }
 
 input[type="email"] {
@@ -171,5 +172,99 @@ button[type="submit"]:focus{
 }
 .intro__w-1250 img{
     width: 470px;
-    padding: 13px 18px 11px 17px;
 }
+/*------------ section 2------------*/
+.category-search{
+    height: 500px;
+    width: 100%;
+    background: #EFF0F3;
+
+}
+.category-search__w-1250{
+    width: 1252px;
+    margin: 0 auto;
+    padding-top: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.subheadings{
+    display: flex;
+    width: 1252px;
+    height: 35px;
+    gap: 814px;
+}
+.subheadings h2{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.subheadings a{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+}
+.subheadings svg{
+    padding-left: 12px;
+    padding-top: 9px;
+    color: #2B2C34;
+}
+.category-cards{
+    display: flex;
+    align-items: flex-start;
+    gap: 37px;
+    width: 1248px;
+    height: 280px;
+}
+.card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    box-sizing: border-box;
+    padding-top: 65px;
+    padding-left: 30px;
+}
+.card h2{
+    color:#2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.blue-background{
+    box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
+    border-radius: 8px;
+    background: #6246EA;
+}
+.blue-background h2{
+    color: #FFFFFE;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/*.card img{
+    width: 60px;
+    height: 60px;
+    background: #FFFFFE;
+    position: relative;
+    left: 30px;
+    top: 65px;
+}
+/*.card:nth-child(1){
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}*/
